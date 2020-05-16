@@ -1,0 +1,75 @@
+html{
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+div{
+    margin: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+#parent{
+    height: 900px;
+    width: 800px;
+    border: 4px ridge black;
+    background-color:white;
+    margin-left: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* #info{
+    font-family: 'PT Sans Narrow', sans-serif;
+} */
+
+#image{
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    display: flex; 
+    flex-direction: row; 
+    padding: 1px;
+}
+
+#contact_info{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+progress    
+{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+/* progress {
+    color: black;
+} */
+
+progress::-webkit-progress-value {
+    color: black;
+    background: black;
+}
+
+.btn {
+    background-color: lightgray;
+    margin: auto;
+    padding: 12px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 700px;
+    border: 2px solid black;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+
+  .btn:hover {
+    background-color: grey;
+  }
